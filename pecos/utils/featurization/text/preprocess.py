@@ -12,7 +12,7 @@
 
 import argparse
 import os
-
+import pandas as pd
 import numpy as np
 import scipy.sparse as smat
 from pecos.utils import smat_util
@@ -67,8 +67,9 @@ class Preprocessor(object):
         Returns:
             A Preprocessor
         """
-
+        
         vectorizer = Vectorizer.train(corpus, vectorizer_config, dtype=dtype)
+        
         return cls(vectorizer)
 
     def predict(self, corpus, **kwargs):
@@ -122,9 +123,9 @@ class Preprocessor(object):
 
         #for i,r in data_df:
         label_strings, corpus = [], []
-        for i,r in data_df:
+        for i,r in data_df.iterrows():
                 corpus.append(r["code"])
-                label_strings.append(",".join(r["label"]))
+                label_strings.append(",".join([str(l) for l in r["label"]]))
                 #text_string = parts[text_pos]
                 #corpus.append(text_string)
 
