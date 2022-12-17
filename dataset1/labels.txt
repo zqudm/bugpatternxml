@@ -1,0 +1,48 @@
+insertInvocation Method call or invocation  addition
+condBlockOthersAdd condition Block addition  with  other Statements 
+missLocalVariable  missing Local Variable, add local variable declaration
+wrongMethodRef  Wrong Method Reference
+missNullCheckN  Missing no null check, therefore, bug fix adds an if predicate to ensure a Non null precondition is met
+expLogicExpand   Logic expression expansion, therefore, bug fix expand logic expression, an increase of the number of operators in the logic expression
+updateInvocation  invocation modification
+missNullCheckP    Missing  null check, therefore, bug fix adds an if predicate to ensure a  null precondition is met
+condBlockRetAdd   bug fix add  an if statement that encloses  return statement
+wrapsIf           Addition of Precondition Check 
+condBlockRem     remove a codition block 
+missAssignment   missing an assignment statement, bug fix add an assignment statement
+wrongVarRef      bug fix replace an variable reference
+expLogicIfMod    modification on conditional expression 
+localVariableMod  modification on local variable
+wrongVarRefArgument  modification variable reference in arguments 
+constChangeArgument  constant Change in Arguments
+wrapsMethod      add an method call 
+wrapsIfElse      add an if and else statement that encloses existing code
+expArithMod      Arithmetic Expressions modification 
+expLogicReduce   Logic expression reduction therefore, bug fix reduce the number of operators in the logic expression
+condBlockOthersAddElse   Addition of an Else Branch
+expLogicMod     logic expression modification
+unwrapMethod    remove an method call 
+wrapsTryCatch   Addition of Try Statement
+deleteAssignment   delete an assignment statement
+returnAdd       add  return statement 
+constChange     constant change
+unwrapIfElse    remove an if-else statement
+returnMod       return statement modification
+constructorCallMod   constructor call modification
+replacewithInvocation   replace an invocation with an invocation
+insertInvocationArgument   add an argument 
+wrapsLoop   add an loop that encloses an existing code
+wrapsElse   add an else branch that encloses an existing code
+condBlockOthersAddCase  add a  case branch 
+unwrapTryCatch   remove a try statement
+condBlockRemElse  remove an else branch
+condBlockExcAdd   add an if predicate that encloses exception statement
+wrapsForeach   add a for each statement
+condBlockRetAddCase    add a case branch that encloses a return statement
+condBlockRetAddElse    add an else branch that encloses a return statement
+conditionalExpArgument  add a conditional expression argument 
+argumentMod    argument modification
+expLogicLoopMod Change of the Expression that Modifies the Loop Variable
+assignmentMod  modification of assignment statement
+insertThrow   add a throw statement
+replacewithThrow  replace statement with throw statement
