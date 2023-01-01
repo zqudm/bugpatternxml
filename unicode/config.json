@@ -1,0 +1,14 @@
+{
+  "type": "tfidf",
+  "kwargs": {
+    "base_vect_configs": [
+      {   
+        "ngram_range": [2, 2], 
+        "max_df_ratio": 0.98,
+	"max_features": 20000,
+        "analyzer": "word"
+      }  
+    ]   
+  }
+}
+

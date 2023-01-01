@@ -15,23 +15,23 @@ expLogicIfMod    modification on conditional expression
 localVariableMod  modification on local variable
 wrongVarRefArgument  modification variable reference in arguments 
 constChangeArgument  constant Change in Arguments
-wrapsMethod      add an method call 
+wrapsMethod      add a method call 
 wrapsIfElse      add an if and else statement that encloses existing code
 expArithMod      Arithmetic Expressions modification 
 expLogicReduce   Logic expression reduction therefore, bug fix reduce the number of operators in the logic expression
 condBlockOthersAddElse   Addition of an Else Branch
 expLogicMod     logic expression modification
-unwrapMethod    remove an method call 
+unwrapMethod    remove a method call 
 wrapsTryCatch   Addition of Try Statement
 deleteAssignment   delete an assignment statement
-returnAdd       add  return statement 
+returnAdd       add a return statement 
 constChange     constant change
 unwrapIfElse    remove an if-else statement
 returnMod       return statement modification
 constructorCallMod   constructor call modification
 replacewithInvocation   replace an invocation with an invocation
 insertInvocationArgument   add an argument 
-wrapsLoop   add an loop that encloses an existing code
+wrapsLoop   add a loop that encloses an existing code
 wrapsElse   add an else branch that encloses an existing code
 condBlockOthersAddCase  add a  case branch 
 unwrapTryCatch   remove a try statement
